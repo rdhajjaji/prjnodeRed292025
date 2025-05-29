@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion - Lina</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #ffe6f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      background: white;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    input {
+      display: block;
+      margin-bottom: 1em;
+      width: 100%;
+      padding: 0.5em;
+    }
+    button {
+      background: pink;
+      border: none;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <form method="POST" action="/login">
+    <h2>Se connecter 🔐</h2>
+    <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+    <input type="password" name="password" placeholder="Mot de passe" required>
+    <button type="submit">Connexion</button>
+  </form>
+</body>
+</html>

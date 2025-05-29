@@ -1,0 +1,19 @@
+{
+  "name": "nodered-projet-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@studiobox/node-red-contrib-ui-widget-thermometer": "^0.7.7",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "node-red": "^4.0.9"
+  }
+}
